@@ -1,0 +1,8 @@
+Module
+  name: game_jumpmodal
+  description: Jump mini game 
+  author: lfatton 
+  sandboxed: true
+  scripts: [ jumpmodal ]
+  @onLoad: init()
+  @onUnload: terminate()

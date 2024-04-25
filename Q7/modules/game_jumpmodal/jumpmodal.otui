@@ -1,0 +1,10 @@
+MainWindow
+  id: jumpModalWindow
+  !text: tr('Jump Mini Game')
+  size: 550 400
+  @onEscape: toggle()
+  
+  Button
+    id: jumpBtn
+    !text: tr('Jump!')
+    @onClick: modules.game_jumpmodal.makeBtnJump()
